@@ -7,6 +7,7 @@ C:\Workspace\OpencartV121\src\test\java\testBase\BaseClass.java
 C:\Workspace\OpencartV121\src\test\java\testCases\TC001_AccountRegistrationTest.java
 C:\Workspace\OpencartV121\src\test\java\testCases\TC002_AccountLoginTest.java
 C:\Workspace\OpencartV121\src\test\java\testCases\TC003_LoginDDT.java
+C:\Workspace\OpencartV121\src\test\java\testCases\TC004_SearchFunctionality.java
 C:\Workspace\OpencartV121\src\test\java\utilities\DataProviders.java
 C:\Workspace\OpencartV121\src\test\java\utilities\ExcelUtility.java
 C:\Workspace\OpencartV121\src\test\java\utilities\ExtentReportManager.java
