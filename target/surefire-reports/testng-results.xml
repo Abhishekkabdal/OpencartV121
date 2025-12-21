@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-07T08:17:03 IST" name="Master Suite" finished-at="2025-09-07T08:17:04 IST" duration-ms="1716">
+  <suite started-at="2025-09-07T08:50:13 IST" name="Master Suite" finished-at="2025-09-07T08:50:16 IST" duration-ms="3070">
     <groups>
       <group name="Master">
-        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@618b19ad]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
-        <method signature="TC002_AccountLoginTest.verify_account_login()[pri:0, instance:testCases.TC002_AccountLoginTest@6b2ea799]" name="verify_account_login" class="testCases.TC002_AccountLoginTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@74235045]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC002_AccountLoginTest.verify_account_login()[pri:0, instance:testCases.TC002_AccountLoginTest@51399530]" name="verify_account_login" class="testCases.TC002_AccountLoginTest"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC002_AccountLoginTest.verify_account_login()[pri:0, instance:testCases.TC002_AccountLoginTest@6b2ea799]" name="verify_account_login" class="testCases.TC002_AccountLoginTest"/>
+        <method signature="TC002_AccountLoginTest.verify_account_login()[pri:0, instance:testCases.TC002_AccountLoginTest@51399530]" name="verify_account_login" class="testCases.TC002_AccountLoginTest"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@618b19ad]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
+        <method signature="TC001_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@74235045]" name="verify_account_registration" class="testCases.TC001_AccountRegistrationTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-09-07T08:17:03 IST" name="Test" finished-at="2025-09-07T08:17:04 IST" duration-ms="1716">
+    <test started-at="2025-09-07T08:50:13 IST" name="Test" finished-at="2025-09-07T08:50:16 IST" duration-ms="3070">
       <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@618b19ad]" started-at="2025-09-07T08:17:03 IST" name="setup" finished-at="2025-09-07T08:17:04 IST" duration-ms="1349" status="FAIL">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@74235045]" started-at="2025-09-07T08:50:14 IST" name="setup" finished-at="2025-09-07T08:50:16 IST" duration-ms="2464" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -119,7 +119,7 @@ at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHtt
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@618b19ad]" started-at="2025-09-07T08:17:04 IST" name="verify_account_registration" finished-at="2025-09-07T08:17:04 IST" duration-ms="0" status="SKIP">
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistrationTest@74235045]" started-at="2025-09-07T08:50:16 IST" name="verify_account_registration" finished-at="2025-09-07T08:50:16 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -209,13 +209,13 @@ at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHtt
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@618b19ad]" started-at="2025-09-07T08:17:04 IST" name="tearDown" finished-at="2025-09-07T08:17:04 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@74235045]" started-at="2025-09-07T08:50:16 IST" name="tearDown" finished-at="2025-09-07T08:50:16 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC001_AccountRegistrationTest -->
       <class name="testCases.TC002_AccountLoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_AccountLoginTest@6b2ea799]" started-at="2025-09-07T08:17:04 IST" name="setup" finished-at="2025-09-07T08:17:04 IST" duration-ms="35" status="FAIL">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_AccountLoginTest@51399530]" started-at="2025-09-07T08:50:16 IST" name="setup" finished-at="2025-09-07T08:50:16 IST" duration-ms="37" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -317,7 +317,7 @@ at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHtt
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_account_login()[pri:0, instance:testCases.TC002_AccountLoginTest@6b2ea799]" started-at="2025-09-07T08:17:04 IST" name="verify_account_login" finished-at="2025-09-07T08:17:04 IST" duration-ms="0" status="SKIP">
+        <test-method signature="verify_account_login()[pri:0, instance:testCases.TC002_AccountLoginTest@51399530]" started-at="2025-09-07T08:50:16 IST" name="verify_account_login" finished-at="2025-09-07T08:50:16 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -407,7 +407,7 @@ at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHtt
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_account_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_AccountLoginTest@6b2ea799]" started-at="2025-09-07T08:17:04 IST" name="tearDown" finished-at="2025-09-07T08:17:04 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_AccountLoginTest@51399530]" started-at="2025-09-07T08:50:16 IST" name="tearDown" finished-at="2025-09-07T08:50:16 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

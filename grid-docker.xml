@@ -8,7 +8,7 @@
 
 
 	<test name="Linux-Chrome">
-		<parameter name="os" value="Linux" />
+		<parameter name="os" value="Windows" />
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="testCases.TC001_AccountRegistrationTest" />
@@ -19,7 +19,7 @@
 	</test>
 
 	<test name="Linux-Edge">
-		<parameter name="os" value="Linux" />
+		<parameter name="os" value="Windows" />
 		<parameter name="browser" value="edge" />
 		<classes>
 			<class name="testCases.TC001_AccountRegistrationTest" />
